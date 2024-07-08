@@ -167,7 +167,9 @@ class Template:
         )
 
     def fill_output_columns(self, non_custom_columns, all_custom_columns):
+        
         all_template_columns = non_custom_columns + all_custom_columns
+
         # Typical case: sort alpha-numerical (natural sort)
         self.output_columns = sorted(
             all_template_columns, key=custom_sort_output_columns

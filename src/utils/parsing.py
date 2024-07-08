@@ -116,6 +116,7 @@ def parse_field_string(field_string):
 
 
 def custom_sort_output_columns(field_label):
+    print(FIELD_LABEL_NUMBER_REGEX)
     label_prefix, label_suffix = re.findall(FIELD_LABEL_NUMBER_REGEX, field_label)[0]
     return [label_prefix, int(label_suffix) if len(label_suffix) > 0 else 0]
 

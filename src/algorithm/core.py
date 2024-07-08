@@ -21,7 +21,7 @@ from src.algorithm.detection import BubbleMeanValue, FieldStdMeanValue
 from src.utils.image import ImageUtils
 from src.utils.interaction import InteractionUtils
 from src.utils.logger import logger
-
+import pytesseract
 
 class ImageInstanceOps:
     """Class to hold fine-tuned utilities for a group of images. One instance for each processing directory."""
@@ -225,8 +225,8 @@ class ImageInstanceOps:
                     question_number = field.field_label
                     image_area = gray_image[rect[0] : rect[1], rect[2] : rect[3]]
                     # DO OCR on image_area
-                    detected_text = "X"
-                    omr_response[question_number] = detected_text
+                  #  print (image_area)
+                    omr_response[question_number] = pytesseract.image_to_string(image_area)
 
                 block_field_number += 1
                 absolute_field_number += 1
