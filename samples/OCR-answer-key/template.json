@@ -1,0 +1,27 @@
+{
+  "templateDimensions": [ 2544, 3504 ],
+  "bubbleDimensions": [ 65, 59 ],
+  "customLabels": {},
+  "processingImageShape": [1280, 720],
+  "fieldBlocks": {
+      "CUSTOM1": {
+      "fieldType": "CUSTOM_BUBBLES",
+      "direction": "horizontal",
+
+      "bubbleValues": ["a"],
+
+      "fieldLabels": ["CUSTOM1_1", "CUSTOM1_2", "CUSTOM1_3", "CUSTOM1_4", "CUSTOM1_5", "CUSTOM1_6", "CUSTOM1_7", "CUSTOM1_8", "CUSTOM1_9", "CUSTOM1_10",
+                      "CUSTOM1_11", "CUSTOM1_12", "CUSTOM1_13", "CUSTOM1_14", "CUSTOM1_15", "CUSTOM1_16", "CUSTOM1_17", "CUSTOM1_18", "CUSTOM1_19", "CUSTOM1_20",
+                      "CUSTOM1_21", "CUSTOM1_22", "CUSTOM1_23", "CUSTOM1_24", "CUSTOM1_25", "CUSTOM1_26", "CUSTOM1_27", "CUSTOM1_28", "CUSTOM1_29", "CUSTOM1_30",
+                      "CUSTOM1_31", "CUSTOM1_32", "CUSTOM1_33", "CUSTOM1_34", "CUSTOM1_35", "CUSTOM1_36", "CUSTOM1_37", "CUSTOM1_38", "CUSTOM1_39", "CUSTOM1_40"],
+      "origin": [
+        390,
+        1202
+      ],
+      "bubblesGap": 17,
+      "labelsGap": 51.6
+      
+    }
+  }
+}
+
